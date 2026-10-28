@@ -1,4 +1,4 @@
-#No Hadoop, o framework cuida de dividir a entrada, distribuir os mappers e fazer um shuffle. O main simula essas etapas para enxergar o fluxo completo. Lê o CSV e divide em 4 pedaços de linhas inteiras
+#Simula o que o hadoop faria: divide a entrada, executa o mapper, combiner e shuffle, chama o reducer e roda as verificações
 
 import sys
 from collections import defaultdict

@@ -1,5 +1,4 @@
-#Transforma cada linha bruta do CSV em pares chave-valor. Cada par carrega as somas parciais necessárias para calcular a correlação de Pearson entre a temperatura (X) e outra coluna (Y).
-#Confere se cada linha é válida. Se for, emite 1 par por coluna com os 6 números
+#Valida cada linha. se for válida, emite 1 par por coluna Y com chave. como cada linha é uma única observação, as somas parciais são os próprios valores
 
 import math
 

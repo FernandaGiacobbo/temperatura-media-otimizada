@@ -1,5 +1,5 @@
 #Junta os resultados de todos os mappers e produz a correlação final de cada coluna
-#Soma os totais e aplica a fórmula de Pearson uma única vez
+#soma as somas parciais de todos os mappers e aplica a fórmula de Pearson uma única vez por coluna
 
 import math
 
